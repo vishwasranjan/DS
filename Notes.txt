@@ -1,0 +1,5 @@
+                                    DATA STRUCTURE
+                                    --------------
+Data structure is a way to organize data.
+
+Abstrct data types(ADTs) :- define data and operation but no implemnetation.
