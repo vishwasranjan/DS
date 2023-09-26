@@ -2,4 +2,24 @@
                                     --------------
 Data structure is a way to organize data.
 
-Abstrct data types(ADTs) :- define data and operation but no implemnetation.
+Abstract data types(ADTs) :- define data and operation but no implemnetation.
+
+1) List:-
+    >Store a given number element of a given data-types
+    >Write and modify the element
+    >Read a element
+    >have a dynamic size
+
+    We cannot achieve these all feature in terms of memory usage and time complexity by array so Linked List came into picture which is 
+    having the dynamic size,can insert a ele at any pos or can delete.
+
+    LINKED LIST:-
+    ---------------
+    Linked list contains a node which is having two filed one is holding the data and the other is holding the address of the other node.
+
+    Node{
+        String data;    //store the data
+        Node next;  //store the address of the next node
+    }
+
+    [1,_]->[2,_]->[3,_]->null
