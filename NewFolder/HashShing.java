@@ -1,3 +1,9 @@
+// A few important features of HashSet are mentioned below:
+//     >As it implements the Set Interface, duplicate values are not allowed.
+//     >Objects that you insert in HashSet are not guaranteed to be inserted in the same order. 
+//     Objects are inserted based on their hash code.
+//     >NULL elements are allowed in HashSet.
+//     HashSet<E> hs = new HashSet<E>();
 import java.util.HashSet;
 import java.util.Iterator;
 //HashSet-Allow unique element only
