@@ -14,5 +14,10 @@ class Hashmap{
         }
         map.remove("china");    //Delete    =>  delete the value
         System.out.println(map);
+
+        Set<String> keys=map.keySet();
+        for(String key : keys){
+            System.out.println("Key "+key+" value "+map.get(key));
+        }
     }
 }
